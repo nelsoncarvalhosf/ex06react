@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.listMovies{
+  padding-right: 40px;
+}
+.listMovies li{
+  list-style: none;
+  text-align: left;
+  margin: 2px 0;
+  background-color: #EEE;
+}
+.listMovies li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: block;
+  padding: 5px;
+  background-color: #CCC;
+}
+.listMovies li a:hover{
+  background-color: #DDD;
+  color: #333;
+}
+.menuPrincipal li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+.menuPrincipal li a{
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  background-color: #ccc;
+  font-weight: bold;
+}
+.menuPrincipal li a:hover{
+  background-color: #DDD;
+}
+.listMovies li button{
+  background-color: black;
+  color: white;
+  border: 0;
+  margin: 5px;
+}
+.listMovies li button:hover{
+  background-color: #333;
+  cursor: pointer;
+}
